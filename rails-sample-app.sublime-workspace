@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"se",
+				"sessions"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"U",
+				"User"
+			],
+			[
+				"gravat",
+				"gravatar"
+			],
+			[
 				"des",
 				"describe"
 			],
@@ -324,10 +340,6 @@
 				"padding: padding: T R B L"
 			],
 			[
-				"pa",
-				"padding: padding: T R B L"
-			],
-			[
 				"sha",
 				"shadow"
 			],
@@ -407,7 +419,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -451,7 +463,7 @@
 				"Set Syntax: HTML (Erlang)"
 			]
 		],
-		"width": 425.0
+		"width": 392.0
 	},
 	"console":
 	{
@@ -468,35 +480,53 @@
 	},
 	"file_history":
 	[
-		"/c/sites/rails_projects/sample_app/Gemfile",
-		"/c/sites/rails_projects/sample_app/db/migrate/20120630135912_add_password_digest_to_users.rb",
+		"/c/sites/rails_projects/sample_app/app/controllers/users_controller.rb",
+		"/c/sites/rails_projects/sample_app/app/controllers/sessions_controller.rb",
+		"/c/sites/rails_projects/sample_app/config/routes.rb",
+		"/c/sites/rails_projects/sample_app/app/helpers/sessions_helper.rb",
+		"/c/sites/rails_projects/sample_app/app/views/layouts/_header.html.erb",
+		"/c/sites/rails_projects/sample_app/app/assets/javascripts/application.js",
+		"/c/sites/rails_projects/sample_app/app/models/user.rb",
+		"/c/sites/rails_projects/sample_app/db/migrate/20120701214854_add_remember_token_to_users.rb",
+		"/c/sites/rails_projects/sample_app/app/controllers/application_controller.rb",
+		"/C/Sites/rails_projects/sample_app/app/views/sessions/new.html.erb",
+		"/c/sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb",
+		"/c/sites/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb",
+		"/C/wamp/www/bootstrap/docs/assets/css/bootstrap.css",
 		"/c/sites/rails_projects/sample_app/spec/models/user_spec.rb",
+		"/c/sites/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/c/sites/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/c/sites/rails_projects/sample_app/app/views/static_pages/home.html.erb",
+		"/c/sites/rails_projects/sample_app/Gemfile",
+		"/c/sites/rails_projects/sample_app/app/assets/javascripts/static_pages.js.coffee",
+		"/c/sites/rails_projects/sample_app/vendor/assets/javascripts/.gitkeep",
+		"/c/sites/rails_projects/sample_app/config/environments/production.rb",
+		"/c/sites/rails_projects/sample_app/config/application.rb",
+		"/c/sites/rails_projects/sample_app/app/helpers/users_helper.rb",
+		"/c/sites/rails_projects/sample_app/app/views/users/new.html.erb",
+		"/C/Sites/rails_projects/sample_app/app/views/shared/_error_messages.html.erb",
+		"/c/sites/rails_projects/sample_app/config/locales/en.yml",
+		"/C/Sites/rails_projects/sample_app/test.html",
+		"/c/sites/rails_projects/sample_app/app/views/users/test.html",
+		"/C/Sites/rails_projects/sample_app/app/views/users/show.html.erb",
+		"/c/sites/rails_projects/sample_app/config/environments/test.rb",
+		"/C/Sites/rails_projects/sample_app/spec/factories.rb",
+		"/c/sites/rails_projects/sample_app/app/views/static_pages/about.html.erb",
+		"/c/sites/rails_projects/sample_app/spec/spec_helper.rb",
+		"/c/sites/rails_projects/sample_app/db/migrate/20120630135912_add_password_digest_to_users.rb",
 		"/c/sites/rails_projects/sample_app/db/development.sqlite3",
 		"/c/sites/rails_projects/sample_app/db/migrate/20120630113713_add_index_to_users_email.rb",
 		"/c/sites/rails_projects/sample_app/db/schema.rb",
-		"/c/sites/rails_projects/sample_app/app/models/user.rb",
 		"/c/sites/rails_projects/sample_app/db/migrate/20120629211145_create_users.rb",
-		"/c/sites/rails_projects/sample_app/config/routes.rb",
-		"/c/sites/rails_projects/sample_app/spec/requests/user_pages_spec.rb",
-		"/c/sites/rails_projects/sample_app/app/views/users/new.html.erb",
-		"/c/sites/rails_projects/sample_app/app/views/static_pages/about.html.erb",
-		"/c/sites/rails_projects/sample_app/app/views/layouts/_header.html.erb",
 		"/c/sites/rails_projects/sample_app/app/views/static_pages/contact.html.erb",
-		"/c/sites/rails_projects/sample_app/app/views/static_pages/home.html.erb",
-		"/c/sites/rails_projects/sample_app/app/controllers/users_controller.rb",
 		"/c/sites/rails_projects/sample_app/app/views/users/no-test-framework.html.erb",
-		"/c/sites/rails_projects/sample_app/app/helpers/users_helper.rb",
-		"/c/sites/rails_projects/sample_app/app/views/layouts/application.html.erb",
 		"/c/sites/rails_projects/sample_app/.bundle/config",
 		"/c/sites/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
 		"/c/sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
 		"/c/sites/rails_projects/sample_app/app/helpers/static_pages_helper.rb",
 		"/c/sites/rails_projects/sample_app/app/helpers/application_helper.rb",
 		"/C/Sites/rails_projects/sample_app/spec/support/utilities.rb",
-		"/c/sites/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
 		"/c/sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
-		"/c/sites/rails_projects/sample_app/app/controllers/application_controller.rb",
-		"/c/sites/rails_projects/sample_app/spec/spec_helper.rb",
 		"/C/Sites/rails_projects/sample_app/app/views/layouts/_header.html.erb",
 		"/C/Sites/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
 		"/c/sites/rails_projects/sample_app/app/assets/stylesheets/application.css",
@@ -577,25 +607,7 @@
 		"/D/htdocs/rhosby/wp-content/plugins/wp-email-capture/inc/dashboard.php",
 		"/D/htdocs/rhosby/wp-content/plugins/wp-email-capture/inc/tabledata.php",
 		"/D/htdocs/rhosby/wp-content/plugins/wp-email-capture/inc/tempdata.php",
-		"/D/htdocs/rhosby/wp-content/plugins/wp-email-capture/readme.txt",
-		"/D/htdocs/opencart152_1/catalog/view/theme/sellegance/template/common/header.tpl",
-		"/D/htdocs/opencart152_1/vqmod/vqcache/vq2-catalog_controller_product_category.php",
-		"/D/htdocs/opencart152_1/vqmod/xml/remove-product-quantity-from-category.xml",
-		"/D/htdocs/opencart152_1/catalog/view/theme/sellegance/template/information/contact.tpl",
-		"/D/htdocs/opencart152_1/catalog/view/theme/sellegance/template/common/footer.tpl",
-		"/D/htdocs/opencart152_1/catalog/view/theme/sellegance/template/module/cart.tpl",
-		"/C/Users/Luis/Desktop/custom.css",
-		"/D/htdocs/opencart152_1/catalog/view/theme/sellegance/template/checkout/payment_method.tpl",
-		"/D/htdocs/opencart152_1/catalog/view/theme/sellegance/stylesheet/stylesheet.rtl.css",
-		"/D/htdocs/opencart152_1/catalog/view/theme/sellegance/template/common/column_left.tpl",
-		"/D/htdocs/opencart152_1/catalog/view/theme/sellegance/template/checkout/simplecheckout_customer.tpl",
-		"/D/htdocs/opencart152_1/catalog/view/theme/sellegance/template/checkout/simplecheckout.tpl",
-		"/D/htdocs/opencart152_1/catalog/view/theme/sellegance/template/checkout/simplecheckout_cart.tpl",
-		"/D/htdocs/opencart152_1/vqmod/xml/subcat_images.xml",
-		"/D/htdocs/opencart152_1/catalog/controller/product/category.php",
-		"/D/htdocs/opencart152_1/catalog/view/theme/sellegance/template/account/address_list.tpl",
-		"/D/htdocs/opencart152_1/catalog/view/theme/default/template/checkout/payment_method.tpl",
-		"/C/Users/Luis/AppData/Local/Temp/Rar$DI00.716/rtl.stylesheet.css"
+		"/D/htdocs/rhosby/wp-content/plugins/wp-email-capture/readme.txt"
 	],
 	"find":
 	{
@@ -634,6 +646,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/assets",
 			"customer_group",
 			"dineromail",
 			"oxxo",
@@ -760,8 +773,7 @@
 			"categ",
 			"ask",
 			"$this->data['entry_captcha'] = $this->language->get('entry_captcha');",
-			"capt",
-			"demo"
+			"capt"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -769,6 +781,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"file:///C:/Sites/rails_projects/sample_app/assets",
 			"tarjetadineromail",
 			"req_mark",
 			"req-mark",
@@ -895,8 +908,7 @@
 			"class=\"control-label\"",
 			"control-group",
 			"btn btn-inverse",
-			"span3",
-			"class=\"input-large\""
+			"span3"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -906,6 +918,11 @@
 	},
 	"groups":
 	[
+		{
+			"sheets":
+			[
+			]
+		},
 		{
 			"sheets":
 			[
@@ -929,6 +946,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -939,6 +962,7 @@
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
